@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>मराठवाडा स्पेशल - शेतमाल विक्री</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Swiper CSS -->
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo"> मराठवाडा स्पेशल</div>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <!-- <div class="nav-menu" id="nav-menu">
+                <a href="#jowar"> ज्वारी</a>
+                <a href="#til-gud"> तीळ व गूळ</a>
+                <a href="#pickle"> कैरी लोणचे</a>
+                <a href="#summer"> उन्हाळा स्पेशल</a>
+                <a href="#other"> इतर प्रॉडक्ट</a>
+            </div> -->
+            <div class="nav-menu" id="nav-menu">
+                <div class="dropdown">
+                    <button class="dropbtn">Products</button>
+                    
+                    <div class="dropdown-content">
+                        <a href="#jowar">ज्वारी</a>
+                        <a href="#til-gud">तीळ व गूळ</a>
+                        <a href="#pickle">कैरी लोणचे</a>
+                        <a href="#summer">उन्हाळा स्पेशल</a>
+                        <a href="#other">इतर प्रॉडक्ट</a>
+                    </div>
+                </div>
+
+                <!-- Other navigation links -->
+                <a href="#about">About Us</a>
+                <a href="#pay">Pay Now</a>
+                <a href="#feedback">Feedback</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+            
+        </nav>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>मराठवाडा स्पेशल - शेतमाल विक्री</h1>
+                <p>परभणी जिल्ह्यातील उत्कृष्ट प्रतीची, स्वच्छ ज्वारी व इतर शेतमाल</p>
+                <!-- <a href="#order-info" class="cta-btn">ऑर्डर करा</a> -->
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="our-testimonial">
+            <div class="container">
+                <div class="testimonial-slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="hero-slider-image">
+                                <img src="https://www.amalfarm.com/wp-content/uploads/2025/05/Amalfarm-banner-Phool-Makhana-Bihar-%E2%80%93-The-Superfood-You-Need-in-Your-Kitchen.png" alt="Gallery Image 2">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hero-slider-image">
+                                <img src="https://www.amalfarm.com/wp-content/uploads/2025/05/Amalfarm-banner-Kala-Namak-Rice-Uttar-Pradesh-%E2%80%93-The-Buddhas-Gift-to-the-World.png" alt="Gallery Image 1">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hero-slider-image">
+                                <img src="https://www.amalfarm.com/wp-content/uploads/2025/05/Amalfarm-banner-Gobindobhog-Rice-West-Bengal-%E2%80%93-Bengals-Aromatic-Treasure.png" alt="Gallery Image 3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                
+            </div>
+           
+        </div>
+
+
+
+        <section id="jowar">
+            <h2> ज्वारी</h2>
+            <div class="products">
+                <div class="product-card">
+                    <span class="badge special">Special</span>
+                    <img src="https://pipagro.com/cdn/shop/files/KingofWheat_42.jpg?v=1720535032" alt="ज्वारी">
+                    <!-- <a class="img-link" href="images/rice.webp" target="_blank">प्रतिमा पहा/डाउनलोड करा</a> -->
+                    <h3>दगडी व मालदांडी ज्वारी</h3>
+                    <p>उत्तम दर्जाची, स्वच्छ ज्वारी.<br> किंमत: <strong>55/- प्रति किलो*</strong></p>
+                    <button onclick="orderNow('ज्वारी')">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <span class="badge special">Special</span>
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2022/11/XK/SJ/QJ/42713652/yellow-sorghum-seeds-500x500.jpg" alt="ज्वारी">
+                    <!-- <a class="img-link" href="images/rice.webp" target="_blank">प्रतिमा पहा/डाउनलोड करा</a> -->
+                    <h3>पिवळी ज्वारी</h3>
+                    <p>उत्तम दर्जाची, स्वच्छ ज्वारी.<br> किंमत: <strong>55/- प्रति किलो*</strong></p>
+                    <button onclick="orderNow('ज्वारी')">Order Now</button>
+                </div>
+                
+            </div>
+            <ul>
+                <li>PCMC- Free डिलिव्हरी</li>
+                <li>PUNE- 70 Rs डिलिव्हरी चार्जेस</li>
+                <li>ज्वारी ची 5 किलो वरील ऑर्डर स्विकारल्या जाईल.</li>
+            </ul>
+        </section>
+        <section id="til-gud">
+            <h2>तीळ व गूळ</h2>
+            <div class="products">
+                <div class="product-card">
+                    <span class="badge best">Best Seller</span>
+                    <img src="https://staticimg.amarujala.com/assets/images/2019/01/08/til-k-ladoo_1546944304.jpeg" alt="तीळ">
+                    <!-- <a class="img-link" href="https://via.placeholder.com/240x140?text=Til" target="_blank">प्रतिमा पहा/डाउनलोड करा</a> -->
+                    <h3>तीळ (बिना पॉलिश)</h3>
+                    <p>किंमत: <strong>230/- प्रति किलो</strong></p>
+                    <button onclick="orderNow('तीळ')">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="data:image/jpeg;base64,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" alt="गूळ">
+                    <h3>गूळ ढेप</h3>
+                    <p>किंमत: <strong>75/- प्रति किलो</strong></p>
+                    <button onclick="orderNow('गूळ ढेप')">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiqyYSl4m3SOuXgb3H6l1s-ixcw7rMrGWidg&s" alt="गूळ पावडर">
+                    <h3>गूळ पावडर</h3>
+                    <p>किंमत: <strong>80/- प्रति किलो</strong></p>
+                    <button onclick="orderNow('गूळ पावडर')">Order Now</button>
+                </div>
+            </div>
+            <p>गूळ हा डायरेक्ट गुऱ्हाळतुन आपणा पर्यंत पोहचवत आहोत.</p>
+        </section>
+        <section id="pickle">
+            <h2>कैरी लोणचे</h2>
+            <div class="products">
+                <div class="product-card">
+                    <span class="badge new">New</span>
+                    <img src="https://i.ytimg.com/vi/XsgtV8g6EEU/maxresdefault.jpg" alt="कैरी लोणचे">
+                    <h3>कारळ कैरी लोणचे</h3>
+                    <p>किंमत: <strong>550/-</strong></p>
+                    <button onclick="orderNow('कारळ कैरी लोणचे')">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.ytimg.com/vi/fl0MpeCQ6JE/sddefault.jpg" alt="मोहरी कैरी लोणचे">
+                    <h3>मोहरी कैरी लोणचे</h3>
+                    <p>किंमत: <strong>500/-</strong></p>
+                    <button onclick="orderNow('मोहरी कैरी लोणचे')">Order Now</button>
+                </div>
+            </div>
+            <p>ताजे माठातले वर्षभर टिकणारे, गावराण कैरी लोणचे.</p>
+        </section>
+        <section id="summer">
+            <h2> उन्हाळा स्पेशल वाळवण</h2>
+            <div class="products">
+                <div class="product-card">
+                    <img src="https://img500.exportersindia.com/product_images/bc-500/dir_106/3154141/gehu-kurdai-1222956.jpg" alt="गहू कुरडई">
+                    <h3>गहू कुरडई</h3>
+                    <p>किंमत: <strong>400/- प्रति किलो</strong></p>
+                    <button onclick="orderNow('गहू कुरडई')">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.ytimg.com/vi/ZIqWhDTkfus/sddefault.jpg" alt="ज्वारी पापडी">
+                    <h3>ज्वारी पापडी</h3>
+                    <p>किंमत: <strong>380/- प्रति किलो</strong></p>
+                    <button onclick="orderNow('ज्वारी पापडी')">Order Now</button>
+                </div>
+            </div>
+            <p>घरगुती पद्धतीने तयार केलेल ताजे उन्हाळी वाळवण प्रॉडक्ट.</p>
+        </section>
+        <section id="other">
+            <h2>इतर शेतातील प्रॉडक्ट</h2>
+            <div class="products">
+                <div class="product-card">
+                    <img src="https://thumbs.dreamstime.com/b/organic-dry-turmeric-haldi-powder-also-known-as-curcuma-longa-linn-selective-focus-spice-pile-bowl-whole-191159061.jpg" alt="हळद">
+                    <h3>हळद 250 ग्रॅम</h3>
+                    <p>किंमत: <strong>85/-</strong></p>
+                    <button onclick="orderNow('हळद')">Order Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://static.wixstatic.com/media/ed506e_630d1b0a5e0147f98acf4f78885b81a1~mv2.jpeg/v1/fill/w_500,h_500,al_c,q_80,enc_avif,quality_auto/ed506e_630d1b0a5e0147f98acf4f78885b81a1~mv2.jpeg" alt="तिखट">
+                    <h3>तिखट 250 ग्रॅम</h3>
+                    <p>किंमत: <strong>100/-</strong></p>
+                    <button onclick="orderNow('तिखट')">Order Now</button>
+                </div>
+            </div>
+        </section>
+        <!-- <section id="order-info">
+            <h2>ऑर्डर व डिलिव्हरी माहिती</h2>
+            <ul>
+                <li>सोमवार ते गुरुवार ऑर्डर स्वीकारली जाईल आणि ऑर्डर ची डिलिव्हरी फक्त वीकएंड ला मिळेल.</li>
+                <li>Phone Number - <a href="tel:9028989533">9028989533</a> / <a href="tel:9356648269">9356648269</a></li>
+            </ul> -->
+            <!-- <a class="whatsapp-btn" href="https://wa.me/919028989533" target="_blank">WhatsApp वर ऑर्डर करा</a> -->
+        <!-- </section> -->
+    </main>
+    <footer>
+        <p>&copy; 2024 मराठवाडा स्पेशल. सर्व हक्क राखीव.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
